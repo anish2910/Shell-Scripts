@@ -7,3 +7,5 @@ echo command for o/p
 Can also take multiple inputs using -a 
 Modified using chmod to provide user with execution permission using chmod u+x labs.sh 
 Also checked on file test operators.
+-r -w -x for checking file permissions.
+there are various flags such s -e -d and -f ,etc.
