@@ -10,3 +10,34 @@ Also checked on file test operators.
 -r -w -x for checking file permissions.
 there are various flags such s -e -d and -f ,etc.
 -s checks whther file is empty or not.
+
+*for loop****************
+for (( counter=1; counter<=10; counter++ ))
+do
+echo -n "$counter "
+done
+printf "\n"
+
+SWITCH CASE******************
+echo -n "Enter a number: "
+read num
+case $num in
+100)
+echo "Hundred!!" ;;
+200)
+echo "Double Hundred!!" ;;
+*)
+echo "Neither 100 nor 200" ;;
+esac
+
+**FUNCTIONS*****************
+function Add()
+{
+echo -n "Enter a Number: "
+read x
+echo -n "Enter another Number: "
+read y
+echo "Adiition is: $(( x+y ))"
+}
+
+Add
