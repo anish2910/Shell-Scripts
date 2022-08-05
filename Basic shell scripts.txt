@@ -1,0 +1,9 @@
+shell scripts:
+create the shell: cat>hello.sh
+take user input 
+echo command for o/p
+-sp for password 
+./filename.sh  to run the shell file
+Can also take multiple inputs using -a 
+Modified using chmod to provide user with execution permission using chmod u+x labs.sh 
+Also checked on file test operators.
