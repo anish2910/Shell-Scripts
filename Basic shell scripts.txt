@@ -9,3 +9,4 @@ Modified using chmod to provide user with execution permission using chmod u+x l
 Also checked on file test operators.
 -r -w -x for checking file permissions.
 there are various flags such s -e -d and -f ,etc.
+-s checks whther file is empty or not.
